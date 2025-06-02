@@ -1,0 +1,23 @@
+CloudEnvironment:
+  Environment1: 
+    base_url: 
+    user:
+    password: 
+    namespace: LDAP
+    ssl: True
+    async_request_mode: True
+AWSEnvironment:
+  Environment1:
+    base_url: https://ap-southeast-2.planninganalytics.saas.ibm.com/api/LUQXWVUS8U1C/v0/tm1/F5
+    user: apikey
+    password: azE6dXNyXzg4Zjc4NTE2LTVjZmEtMzUzYy1hNDE5LTM2ODkwNTdiNjM3MTp5Um5HZWpITzErbmV6R01Tc2J0emZkOFN2dnV2cVQ3di9jL3FTblE1Ni9jPTpFcXhi
+    async_requests_mode: True
+    ssl: True
+    verify: True
+LocalEnvironment:
+  Environment1:
+    address: 10.21.10.9
+    port: 52671
+    user: admin
+    password: five4Fusion
+    ssl: True
